@@ -1,0 +1,34 @@
+NOETIS — Landing Page de Diagnóstico
+====================================
+
+ARQUIVOS
+- index.html ......... A página completa (HTML + CSS + JS num único arquivo).
+                       O logo já está embutido, então funciona sozinho.
+- noetis-logo.png .... O logo em PNG com fundo transparente (uso avulso:
+                       rodapé, favicon, redes sociais, etc.).
+
+COMO USAR
+1. Abra o index.html no navegador para testar.
+2. Para publicar, suba o index.html em qualquer hospedagem
+   (Hostinger, Vercel, Netlify, seu próprio servidor, etc.).
+
+CONFIGURAÇÃO (abra o index.html e procure no topo do <script>)
+- WHATSAPP_NUMERO ....... Troque pelo número real, só dígitos, com DDI+DDD.
+                          Ex.: "5511999999999"
+- ENRIQUECER_MENSAGEM ... true  = a mensagem do WhatsApp leva sua frase +
+                                  um resumo do diagnóstico (recomendado).
+                          false = envia só a frase original.
+- MENSAGEM_BASE ......... Texto inicial enviado ao WhatsApp.
+
+O FORMULÁRIO
+- 8 etapas: segmento, colaboradores, desafio, faturamento, maturidade
+  digital, prazo, descrição do software (opcional) e dados de contato.
+- Valida cada etapa e, no fim, redireciona para o WhatsApp.
+
+PRÓXIMOS PASSOS SUGERIDOS
+- Adicionar um campo de telefone na última etapa.
+- Salvar as respostas num CRM/planilha antes do redirecionamento,
+  para não perder leads que não concluam a conversa no WhatsApp.
+- Reativar a prova social quando houver clientes/depoimentos reais.
+
+(c) 2026 Noetis
